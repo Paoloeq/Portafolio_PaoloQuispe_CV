@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    font-family: 'Kalam', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    height: 45vh;
+    background: linear-gradient(0deg, rgba(8, 30, 225, 0.23), rgba(8, 30, 225, 0.23)), url(img/fondo.jpg);
+    align-items: center;
+    padding-top: 0.1px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+li{
+    list-style: none;
+}
+
+.header__container{
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.name{
+    font-size: 20px;
+}
+.subtitle{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.enlace__portafolio{
+    
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+    display: inline-block;
+    width: 113px;
+    height: 36px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #6DEA32 ;
+    font-size: 16px;
+}
+
+.enlace__container{
+    position: absolute;
+    top:180px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+}
+
+main{
+    text-align: center;
+}
+
+.title__section{
+    margin: 20px 0;
+}
+
+.skills___container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img__skills{
+    width: 140px;
+}
+
+.img__education{
+    width: 170px;
+}
+
+.education__description{
+    margin-top: 20px;
+}
