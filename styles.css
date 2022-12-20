@@ -11,7 +11,7 @@ a{
     color: black;
 }
 .hero{
-    height: 45vh;
+    height: 240px;
     background: linear-gradient(0deg, rgba(8, 30, 225, 0.23), rgba(8, 30, 225, 0.23)), url(img/fondo.jpg);
     align-items: center;
     padding-top: 0.1px;
