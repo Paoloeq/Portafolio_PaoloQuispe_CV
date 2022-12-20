@@ -67,8 +67,15 @@ main{
     text-align: center;
 }
 
+
+.sections__container{
+    
+    display: flex;
+    flex-direction: column;
+}
+
 .title__section{
-    margin: 20px 0;
+    margin: 40px 0 ;
 }
 
 .skills___container{
@@ -86,4 +93,14 @@ main{
 
 .education__description{
     margin-top: 20px;
+}
+
+
+
+@media  (min-width:768px){
+    .sections__container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
 }
