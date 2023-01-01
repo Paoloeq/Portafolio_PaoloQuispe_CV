@@ -12,7 +12,7 @@ a{
 }
 .hero{
     height: 240px;
-    background: linear-gradient(0deg, rgba(8, 30, 225, 0.23), rgba(8, 30, 225, 0.23)), url(img/fondo.jpg);
+    background: linear-gradient(0deg, rgba(8, 30, 225, 0.23), rgba(8, 30, 225, 0.23)), url(/img/fondo.jpg);
     align-items: center;
     padding-top: 0.1px;
     display: flex;
@@ -103,4 +103,13 @@ main{
         justify-content: space-evenly;
         
     }
+
+    .name{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
 }

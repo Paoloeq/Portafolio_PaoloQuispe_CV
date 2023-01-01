@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+*{
+    font-family: 'Kalam', cursive;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.logoimg{
+
+    width: 218.55px;
+}
+.hero{
+    color: white;
+    height: 240px;
+    background: linear-gradient(0deg, rgba(8, 30, 225, 0.23), rgba(8, 30, 225, 0.23)), url(/img/fondo2.jpg);
+    align-items: center;
+    padding-top: 0.1px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header__container{
+    width: 100%;
+    text-align: center;
+
+}
+
+.sectionCarrera{
+    display: flex;
+    
+}
+
+.card{
+    background-color: #D9D9D9;
+    width: 303px;
+    height: 150px ;
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.cardImg{
+    width: 102px;
+    border-radius: 5px;
+}
+
+.cardright{
+    
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cardleft{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.cardrigth__container{
+    text-align: center;
+
+}
+
+
+.btn__card{
+    color: white;
+    margin-top: 10px;
+    width: 65px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #2E76CA;
+}
+
+.section__subtitle{
+    font-size: 20px;
+    margin: 20px auto 0;
+    width: 170px;
+    text-align: center;
+}
+
+.golchet{
+    height: ;
+}
+
+
+@media  (min-width:1011px){
+    .cards{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
