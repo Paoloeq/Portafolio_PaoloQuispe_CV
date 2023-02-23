@@ -10,6 +10,7 @@ a{
     text-decoration: none;
     color: black;
 }
+
 .hero{
     height: 240px;
     background: linear-gradient(0deg, rgba(8, 30, 225, 0.23), rgba(8, 30, 225, 0.23)), url(../img/fondo.jpg);
@@ -21,6 +22,7 @@ a{
     background-position: center;
     
 }
+
 li{
     list-style: none;
 }
@@ -75,7 +77,7 @@ main{
 }
 
 .title__section{
-    margin: 40px 0 ;
+    margin: 30px 0 ;
 }
 
 .skills___container{
@@ -88,28 +90,58 @@ main{
 }
 
 .img__education{
-    width: 170px;
+    width: 230px;
 }
 
 .education__description{
     margin-top: 20px;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.study{
+
+    display: flex;
+    background-color: #6DEA32;
+    margin: 5px auto;
+    width: 280px;
+    height: 110px;
+    align-items: center;
+    background-color: #E6E6E6;
+    border-radius: 10px;
 }
 
 
+.study__lista{
+    margin: 0 auto;
+}
 
 @media  (min-width:768px){
     .sections__container{
         flex-direction: row;
         justify-content: space-evenly;
-        
     }
 
     .name{
         font-size: 30px;
+
+    }
+
+    .study:hover {
+        background-color: lightblue;
+        cursor: pointer;
+    }
+
+    .education__description{
+        flex-direction: row;
+
     }
     .subtitle{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: lighter;
+        display: inline;
+        margin: 0 10px;
     }
 
 }
