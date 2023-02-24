@@ -101,7 +101,7 @@ main{
 }
 
 .study{
-
+    position: relative;
     display: flex;
     background-color: #6DEA32;
     margin: 5px auto;
@@ -112,9 +112,17 @@ main{
     border-radius: 10px;
 }
 
+.img__enlace{
+    
+    width: 24px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
 
 .study__lista{
-    margin: 0 auto;
+    display: block;
+    margin: auto;
 }
 
 @media  (min-width:768px){

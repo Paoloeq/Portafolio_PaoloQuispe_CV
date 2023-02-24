@@ -20,8 +20,12 @@ header{
     background-size: cover;
     background-position: center;
     color: white;
+    font-size: 12px;
 }
 
+.subtitle{
+    font-size: 18px;
+}
 
 .funciones_lista {
     margin: 10px auto;
@@ -42,7 +46,7 @@ a{
 
 .enlace__portafolio{
     text-align: center;
-    padding: 5px;
+    padding: 7px;
     color:black;
     display: block;
     width: 113px;
@@ -51,9 +55,9 @@ a{
     cursor: pointer;
     border-radius: 20px;
     background-color: #6DEA32 ;
-    font-size: 16px;
+    font-size: 14px;
     margin: 10px auto 0px ;
-    
+    position: relative;
     /* position:fixed;
     top: 50vh;
     right: 10px; */
@@ -71,5 +75,13 @@ a{
     .funciones_lista{
         width: 80vw;
         text-align: center;
+    }
+
+    header{
+        font-size: 16px;
+    }
+
+    .subtitle{
+        font-size: 20px;
     }
 }
