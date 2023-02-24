@@ -39,7 +39,8 @@ header{
     padding: 8px;
     text-align: justify;
     background-color: #E6E6E6;
-    width: 90vw;
+    width: 85vw;
+    max-width: 700px;
     border-radius: 10px;
 }
 
