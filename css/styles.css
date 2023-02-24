@@ -104,7 +104,8 @@ main{
     position: relative;
     display: flex;
     background-color: #6DEA32;
-    margin: 5px auto;
+    margin: 0px auto ;
+    margin-bottom: 30px;
     width: 280px;
     height: 110px;
     align-items: center;

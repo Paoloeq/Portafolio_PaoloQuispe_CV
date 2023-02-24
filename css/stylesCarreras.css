@@ -15,12 +15,19 @@ main{
 }
 header{
     padding: 10px;
+    display: flex;
+    align-items: center;
+    height: 200px;
     background: linear-gradient(0deg, rgba(8, 30, 225, 0.23), rgba(8, 30, 225, 0.23)), url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
     font-size: 12px;
+}
+
+.header__container{
+    margin: 0 auto;
 }
 
 .subtitle{
@@ -57,10 +64,7 @@ a{
     background-color: #6DEA32 ;
     font-size: 14px;
     margin: 10px auto 0px ;
-    position: relative;
-    /* position:fixed;
-    top: 50vh;
-    right: 10px; */
+    
 }
 
 .sectionCarrera{
